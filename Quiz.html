@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Quiz - Quiz</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="icon" type="image/x-icon" href="formula.png">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <a href="index.html" class="logo"><img src="logo.png" id="HeadIMG" alt="Logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Facts.html">Fatos</a></li>
+                <li><a class="active" href="Quiz.html">Quiz</a></li>
+                <li><a href="About.html">Sobre nós</a></li>
+            </ul>
+        </header>
+
+        <section class="banner"></section>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function () {
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+        </script>
+
+        <section class="hero parallax js-parallax" style="height:400px;" data-img="ParalexLight1.jpg" data-img-768="ParalexLight1.jpg">
+            <h1 class="parallax-title">Prepara-se</h1>
+        </section>
+
+        <div class="container">
+            <div id="home" class="flex-center flex-column">
+                <h1>Formula 1 Quiz</h1>
+                <a class="btn" href="Quizn.html">
+                    <img src="play-button.png" alt="Iniciar" style="width: 24px; height: 24px; margin-right: 8px;">
+                </a>
+            </div>
+        </div>
+
+        <section class="hero parallax js-parallax" style="height:400px;" data-img="ParalexLight2.jpg" data-img-768="ParalexLight2.jpg">
+            <h1 class="parallax-title">Começar!</h1>
+        </section>
+
+        <script src="shifty.js"></script>
+        <script> new Shifty('.js-parallax');</script>
+    </div>
+</body>
+
+</html>

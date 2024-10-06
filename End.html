@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Completo!</title>
+    <link rel="stylesheet" href="Quiz.css" />
+    <link rel="icon" type="image/x-icon" href="formula.png">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div id="end" class="flex-center flex-column">
+                <video width="600" controls autoplay>
+                    <source src="TU TU TU TU, MAX VERSTAPPEN 🗣🔥🔥🔥(Full meme).mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+
+                <h1>Sua Pontuação</h1>
+                <h1 id="finalScore"></h1>
+
+                <a class="btn" href="Quizn.html">Fazer novamente</a>
+                <a class="btn" href="index.html">Home</a>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        const finalScore = document.getElementById('finalScore');
+        const mostRecentScore = localStorage.getItem('mostRecentScore'); 
+        finalScore.innerText = mostRecentScore; 
+    </script>
+</body>
+</html>

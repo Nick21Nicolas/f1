@@ -1,0 +1,738 @@
+
+<!DOCTYPE html> 
+<html> 
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <Title>Formula 1 Quiz - Fatos</Title>
+        <link rel="stylesheet" href="StyleSheet.css">
+        <link rel="icon" type="image/x-icon" href="formula.png">
+    
+    </head>
+    
+
+    <body>
+    <div class="content">
+        
+        <header>
+            <a href="index.html" class="logo"><img src=logo.png id=HeadIMG></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="Facts.html">Fatos</a></li>
+                <li><a href="Quiz.html">Quiz</a></li>
+                <li><a href="About.html">Sobre Nós</a></li>
+            </ul>
+        
+        </header>  
+        <section class="banner"></section>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script> 
+        
+            <section class="hero parallax js-parallax" style="height:400px;" data-img="ParalexImage5.1.jpg" data-img-768="ParalexImage5.2.jpg">        
+
+                    <h1 class="parallax-title">Times</h1>
+
+            </section>
+
+            <section>
+
+                    <article>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <p id=Centre>Você sabia...? Existem 10 equipes, também chamadas de construtores, na Fórmula 1. Essas 10 equipes competem para cruzar a linha de chegada primeiro. A equipe que mais fizer isso ganhará o título de construtores. Quais são essas equipes? Cada equipe está listada abaixo com alguns fatos!</p></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            <h3>Ferrari</h3>
+                            
+                            <p>Para muitos, as corridas de Ferrari e Fórmula 1 tornaram-se inseparáveis. Única equipe que competiu em todas as temporadas desde o início do campeonato mundial, o Cavalo Empinado cresceu a partir do humilde sonho do fundador Enzo Ferrari para se tornar uma das marcas mais icônicas e reconhecidas do mundo. O sucesso veio rapidamente através de nomes como Alberto Ascari e John Surtees, e continuou - em tempos mais difíceis - com Niki Lauda na década de 1970 e depois Michael Schumacher na década de 2000, quando a Ferrari conquistou cinco títulos duplos consecutivos, até então sem precedentes, garantindo seu status como a equipe mais bem-sucedida e condecorada da história da F1. </p> 
+                            
+                            <h3>Mercedes</h3>
+                            
+                            <p>A Mercedes-AMG Petronas Formula One Team é pioneira em sustentabilidade e inovação tecnológica, investindo em pesquisas para reduzir o impacto ambiental da Fórmula 1. Seu desenvolvimento de novos materiais e técnicas de engenharia não apenas melhora o desempenho nas pistas, mas também beneficia a indústria automotiva. Com a inclusão de jovens talentos como George Russell, a equipe assegura seu futuro competitivo e se compromete com a formação de novas gerações de pilotos.</p> 
+                            
+                            <h3>Haas</h3>
+                            
+                            <p>A Haas F1 Team, estreando em 2016, é a primeira equipe americana na Fórmula 1 em várias décadas. Fundada por Gene Haas, a equipe se destacou por sua abordagem pragmática e uma forte parceria com a Ferrari. Embora enfrente desafios, a Haas busca se estabelecer como uma equipe competitiva e consistente na categoria.</p> 
+                            
+                            <h3>Sauber - Alfa Romeo</h3>
+                            
+                            <p>A Alfa Romeo, originada da Sauber F1 Team, fez sua estreia na Fórmula 1 em 1993 e rapidamente se destacou por sua engenharia e inovação. Um dos momentos marcantes foi o segundo lugar de Kimi Räikkönen no Grande Prêmio da Malásia em 2001. A equipe manteve uma parceria frutífera com a Ferrari, melhorando seu desempenho. Em 2019, rebatizada como Alfa Romeo Racing, buscou revitalizar sua identidade. Embora enfrente desafios, a equipe continua a investir em tecnologia e desenvolvimento. Com uma nova parceria com a Audi prevista para 2026, a Alfa Romeo mira novos horizontes na F1.</p>
+                            
+                            <h3>Alpine</h3>
+                            
+                            <p>A Alpine F1 Team, anteriormente Renault, tem se destacado na Fórmula 1 desde 2021, focando em inovação e desempenho para se estabelecer como uma força competitiva. Um dos momentos emblemáticos da Renault foi em 2005, quando Fernando Alonso conquistou seu primeiro título mundial com o inovador R25, desafiando a dominação de Michael Schumacher. Com pilotos talentosos como Esteban Ocon e Pierre Gasly, a Alpine combina experiência e juventude para maximizar seu potencial em cada corrida. A equipe também se compromete com a sustentabilidade, alinhando-se às metas de redução de carbono da F1. O retorno de Alonso em 2021 trouxe experiência valiosa, enquanto a Alpine busca melhorias e resultados competitivos para um futuro promissor.</p>
+                                
+                        </div>
+
+                        <div>  
+                            
+                            <h3>AlphaTauri (Visa Cash APP)</h3>
+                            
+                            <p>A AlphaTauri, equipe irmã da Red Bull, foi criada em 2020 a partir da Toro Rosso, focando em talentos emergentes e desenvolvimento de pilotos. Com um histórico de ajudar jovens talentos a se destacarem, como Pierre Gasly e Yuki Tsunoda, a AlphaTauri busca competir no meio do pelotão e, ocasionalmente, desafiar os grandes.</p>
+                            
+                            <h3>Aston Martin</h3>
+                            
+                            <p>A Aston Martin Racing, que se tornou uma equipe de F1 em 2021, representa a herança britânica e busca se destacar com um design elegante e desempenho competitivo. Com uma equipe que inclui ex-pilotos de renome, a Aston Martin tem como objetivo subir nas classificações e brigar por posições no topo, como pilotos com nome grande, Fernando Alonso atualmente.</p>
+                            
+                            <h3>Williams</h3>
+                            
+                            <p>A Williams Racing, criada em 1977 por Frank Williams e Patrick Head, rapidamente se tornou uma força dominante na Fórmula 1. Com 9 campeonatos de construtores e 7 títulos de pilotos, a equipe foi um berço para estrelas como Nigel Mansell, Alain Prost e Damon Hill. Conhecida por sua engenharia de ponta e pela busca incessante pela vitória, a Williams deixou uma marca indelével na história da F1, especialmente durante as décadas de 1980 e 1990.</p>
+                            
+                            <h3>McLaren</h3>
+                            
+                            <p>Desde sua entrada na Fórmula 1 em 1966, a McLaren, fundada por Bruce McLaren, teve um sucesso impressionante, conquistando oito campeonatos de construtores e contando com pilotos lendários como Emerson Fittipaldi, Ayrton Senna, Mika Hakkinen e Lewis Hamilton. Um dos períodos mais marcantes foi em 1988 e 1989, quando Ayrton Senna pilotou o McLaren MP4/4 com motores Honda, conhecidos por sua potência e confiabilidade. Em 1988, Senna dominou a temporada, vencendo 15 das 16 corridas. A rivalidade com Alain Prost em 1989 culminou em um acidente icônico em Suzuka, que decidiu o campeonato. O motor Honda foi crucial para o sucesso de Senna, consolidando seu legado como um dos maiores pilotos da história.</p>
+                            
+                            <h3>Red Bull</h3>
+                            
+                            <p>A Red Bull conhecia bem a F1 - como patrocinadora - antes de entrar formalmente como equipe de trabalho em 2004. No entanto, a escala de seu sucesso na década seguinte foi impressionante. Depois do primeiro pódio em 2006, a equipe deu o seu melhor em 2009, conquistando seis vitórias e ficando em segundo lugar na classificação de construtores. Nas quatro temporadas seguintes eles foram um tour de force, conquistando títulos duplos consecutivos entre 2010 e 2013, com Sebastian Vettel emergindo como o quádruplo campeão mais jovem do esporte. Agora, as suas esperanças de recapturar essa glória residem num talento igualmente incrível – chamado Max Verstappen.</p>
+                        
+                        </div>
+
+                    </div>
+
+                    </article>
+
+            </section>
+
+            <section class="hero parallax js-parallax" style="height:400px;" data-img="ParalexImage6.1.jpg" data-img-768="ParalexImage6.2.jpg">        
+
+                    <h1 class="parallax-title">As "Tracks" da Formula 1</h1>
+
+            </section>
+
+            <section>
+
+                    <article>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <p id=Centre>Cada temporada de Fórmula 1 tem uma série de corridas em vários locais ao redor do mundo, o calendário deste ano é o seguinte (2024).</p></div>
+                    
+                    </div>
+                    
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Bahrein</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>Foi em 2004 que os pilotos se alinharam pela primeira vez sob um céu invulgarmente nublado para o primeiro Grande Prémio do Bahrein. A corrida foi dominada (como muitas em 2004) pelas duas Ferraris, com Michael Schumacher vencendo Rubens Barrichello, enquanto a multidão também assistiu a uma fantástica luta entre o Jaguar de Mark Webber e o Renault de Fernando Alonso.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Bahrain.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Arábia Saudita</h2></div>
+                    
+                    </div>
+                        
+                        
+                    <div class="flex-container">  
+
+                        <div>
+                            
+                            <p>O Circuito Corniche de Jeddah é um circuito de rua temporário localizado na área turística de Corniche, em Jeddah, Arábia Saudita. Projetado pela empresa Tilke em colaboração com a equipe de automobilismo da Fórmula 1, o circuito utiliza seções permanentes e foi concebido para oferecer uma experiência de corrida emocionante. Ross Brawn, da F1, destacou que o objetivo era criar um circuito rápido e desafiador, evitando traçados com curvas de 90 graus, buscando proporcionar uma pista que realmente agradasse os pilotos.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Saudi.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                       
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Austrália</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Circuito de Albert Park, em Melbourne, é o lar do Grande Prêmio da Austrália de Fórmula 1. Com 5,278 km de extensão, é um circuito de rua temporário conhecido por suas curvas técnicas e seções rápidas, desafiando os pilotos. Circundando o Lago Albert, oferece vistas panorâmicas e costuma marcar o início da temporada de F1. Com 16 curvas e oportunidades de ultrapassagem, o traçado se destaca como um palco de grandes corridas, especialmente em condições de pista molhada, combinando características urbanas e desafios técnicos.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Australia.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                      
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Itália (Imola)</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>Imola – ou Autódromo Internacional Enzo e Dino Ferrari, como é conhecido desde 1988 – teve sua pedra fundamental lançada em março de 1950. Estava pronto para testes em outubro de 1952, enquanto as corridas começaram no circuito em 1953.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="ItalyImola.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>EUA (Miami)</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Autódromo Internacional de Miami estreou na F1 em maio de 2022, como um circuito temporário com uma sensação permanente. Localizado no complexo do Hard Rock Stadium, sede dos Miami Dolphins da NFL, o traçado resultou de um desenvolvimento que simulou 36 layouts diferentes. Com 19 curvas, a pista oferece uma vibração de circuito de rua, semelhante ao Albert Park em Melbourne.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="USAMiami.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Espanha</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>Os pilotos adoram o Circuito de Barcelona-Catalunha, o que é bom, porque passam muito tempo percorrendo-o durante os testes de inverno. A pista é uma boa mistura de curvas de alta e baixa velocidade, com a desafiadora curva à direita da Curva 3 sendo uma ótima chance de avaliar o equilíbrio do carro que os designers de sua equipe lhe deram para lutar durante a temporada.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Spain.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Mônaco</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>Incrivelmente estreito e totalmente icônico. Nelson Piquet descreveu de forma memorável dirigir por Mônaco como “como andar de bicicleta pela sala de estar”… o que é justo. Apesar disso, é um desafio que quase todos os pilotos adoram, forçando-os a colocar as suas habilidades em risco e recompensando a precisão milimétrica. No entanto, ultrapassar em ruas estreitas é mais difícil, com o Grande Prémio de 2003 a testemunhar um total de zero ultrapassagens!</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Monaco.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Azerbaijão</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Circuito de Baku mescla trechos amplos com áreas apertadas e sinuosas. A longa reta principal permite corridas lado a lado na Curva 1, lembrando a IndyCar. A pista passa pelo centro histórico de Icheri Sheher, com suas muralhas medievais, onde pequenos erros são severamente punidos. As equipes enfrentam o desafio de equilibrar downforce para as curvas e menos arrasto para as retas.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Azerbaijan.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Canadá</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O circuito rápido e de baixo downforce é um dos favoritos dos pilotos. A pista é bastante pára-arranca, com muitas chicanes de frenagem pesada e o famoso gancho para fazer as âncoras trabalharem duro. Fora das curvas, porém, a pista é rápida e fluida, enquanto a peça mais icônica do circuito surge logo no final da volta: o Muro dos Campeões, assim chamado após as excursões de Damon Hill, Jacques Villeneuve e Michael Schumacher durante o fim de semana do Grande Prêmio do Canadá de 1999.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Canada.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Grã-Bretanha</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio da Grã-Bretanha, realizado no icônico Circuito de Silverstone, é uma das corridas mais tradicionais da Fórmula 1, estreando em 1950. Conhecido por suas curvas rápidas e desafiadoras, como Maggotts e Becketts, o traçado testa a habilidade dos pilotos e a performance dos carros. A atmosfera vibrante, impulsionada por uma base de fãs apaixonada, contribui para a sua reputação. O GP é marcado por grandes rivalidades e condições climáticas imprevisíveis, tornando-se um destaque imperdível no calendário da F1</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="UK.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Áustria</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio da Áustria acontece no Circuito Red Bull Ring, em Spielberg, conhecido por suas subidas, descidas e curvas desafiadoras. Com 4,318 km, oferece boas oportunidades de ultrapassagem e emocionantes corridas desde 2014. A forte presença de fãs locais, especialmente da equipe Red Bull Racing, e as belas paisagens alpinas tornam o evento um destaque do calendário da F1.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Austria.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>China</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio da China acontece no Circuito Internacional de Xangai, estreado em 2004. Com 5,451 km, o traçado é conhecido por longas retas e curvas técnicas, oferecendo boas oportunidades de ultrapassagem. O evento atrai uma base de fãs crescente e apresenta desafios de engenharia, exigindo equilíbrio entre downforce e velocidade. O clima imprevisível em Xangai adiciona um desafio extra, reforçando o compromisso da F1 em expandir seu alcance global.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Chine.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Hungria</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio da Hungria é realizado no Circuito de Hungaroring, estreado em 1986. Com 4,381 km, o traçado é desafiador devido às suas curvas estreitas, dificultando ultrapassagens. A corrida costuma ocorrer em condições quentes e atrai muitos fãs locais, criando uma atmosfera animada. É conhecido por sua imprevisibilidade e estratégias de pit stop, sendo um evento aguardado no calendário da F1, com a bela paisagem ao redor acrescentando charme ao evento.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Hungary.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Qatar</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio do Qatar ocorre no Circuito Internacional de Losail, que estreou na F1 em 2021. Com 5,380 km, o traçado apresenta retas longas e curvas desafiadoras, favorecendo ultrapassagens. A corrida noturna cria uma atmosfera vibrante e é bem recebida pelos fãs locais. O clima quente também representa um desafio adicional, tornando o GP do Qatar uma adição interessante ao calendário da F1.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Qatar" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>EUA (Las Vegas)</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>
+                                O Grande Prêmio de Las Vegas estreou em 2023, em um circuito urbano na Strip da cidade. Com 6,120 km, apresenta longas retas e curvas desafiadoras, favorecendo ultrapassagens. A corrida atrai fãs de automobilismo e turistas, destacando o interesse da F1 em expandir sua presença em novos mercados.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Las_Vegas.avif" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Bélgica</h2></div>
+                    
+                    </div>
+
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio da Bélgica ocorre no Circuito de Spa-Francorchamps, um dos mais icônicos da F1, com 7,004 km de extensão. Conhecido por suas curvas desafiadoras, como Eau Rouge e Raidillon, o traçado testa a habilidade dos pilotos. As condições climáticas imprevisíveis adicionam um desafio extra, e a atmosfera vibrante atrai muitos fãs, refletindo a rica história do circuito. O GP da Bélgica é um evento aguardado e respeitado na Fórmula 1.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Belgium.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Holanda</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio da Holanda acontece no Circuito de Zandvoort, retornando à F1 em 2021. Com 4,259 km, é conhecido por suas curvas desafiadoras e elevações naturais. A atmosfera vibrante atrai muitos fãs, e o circuito é cercado por praias e dunas. O GP da Holanda é um evento competitivo, destacando a habilidade dos pilotos e seu charme único.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Netherlands.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Itália (Monza)</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio da Itália é realizado no Autódromo Nazionale Monza, com 5,793 km de extensão. Conhecido como "Templo da Velocidade", Monza é famoso por suas longas retas e curvas rápidas, permitindo altas velocidades. A corrida atrai muitos fãs, especialmente da Ferrari, criando uma atmosfera vibrante. Com uma rica tradição e momentos memoráveis na F1, Monza é um dos eventos mais aguardados do calendário.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="ItalyMonza.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Singapura</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio de Singapura é realizado no Circuito de Marina Bay, um traçado urbano que estreou na Fórmula 1 em 2008. Com 5,063 km de extensão, é conhecido por suas corridas noturnas iluminadas, que criam uma atmosfera espetacular.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Singapore.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Japão</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio do Japão é realizado no Circuito de Suzuka, um dos traçados mais icônicos da Fórmula 1, conhecido por seu layout desafiador e técnico. Com 5,807 km de extensão, Suzuka possui uma combinação única de curvas rápidas e seções sinuosas, como a famosa S do Degner, testando a habilidade dos pilotos.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Japan.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>USA (Austin)</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio dos Estados Unidos é realizado no Circuito das Américas (COTA), em Austin, Texas. Inaugurado em 2012, o traçado tem 5,513 km e é conhecido por seu design desafiador, que combina retas longas e curvas técnicas, incluindo uma icônica subida na primeira parte do circuito.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="USACOTA.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>México</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio do México é realizado no Autódromo Hermanos Rodríguez, em Cidade do México. Retornando ao calendário da Fórmula 1 em 2015, o circuito tem uma extensão de 4,304 km e é conhecido por sua atmosfera vibrante e pela paixão dos fãs mexicanos.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Mexico.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Brasil</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>O Grande Prêmio do Brasil é realizado no Autódromo José Carlos Pace, mais conhecido como Interlagos, em São Paulo. Com uma extensão de 4,309 km, o circuito é famoso por seu layout desafiador e por ser uma das pistas mais emocionantes da Fórmula 1.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Brazil.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+                        
+                    <div class="flex-container">
+                        
+                        <div> <h2 id=centre>Abu Dhabi</h2></div>
+                    
+                    </div>
+                        
+                    <div class="flex-container">  
+
+                        <div> 
+                            
+                            <p>
+                                O Grande Prêmio de Abu Dhabi é realizado no Circuito Yas Marina, que estreou na Fórmula 1 em 2009. Com uma extensão de 5,554 km, o traçado é conhecido por suas curvas largas e longas retas, proporcionando boas oportunidades de ultrapassagem.</p> 
+
+                                
+                        </div>
+
+                        <div>  
+
+                            <img src="Yas.png" alt="Confused Individual" id=FlexB-IMG-5>
+                        
+                        </div>
+
+                    </div>
+
+                    </article>
+                
+                    
+
+            </section>
+
+            <section class="hero parallax js-parallax" style="height:400px;" data-img="ParalexImage7.1.jpg" data-img-768="ParalexImage7.2.jpg">         
+
+                    <h1 class="parallax-title">Quer AINDA MAIS fatos?</h1>
+
+            </section>
+
+            <section>
+
+                    <article>
+
+                    <div class="flex-container">
+
+                        <div> <p>Você não precisa ser um expert em esportes para tentar o quiz sobre Fórmula 1! Se você deseja aprender mais, pode visitar a página informativa, que oferece fatos relevantes da semana para ajudar no seu conhecimento. Embora não forneça todas as respostas, a página dá dicas e sugestões úteis para se preparar para o quiz.</p> </div>
+
+                        <div> <img src="Image5.png" alt="Confused Individual" id=FlexB-IMG-3> </div>
+
+                    </div>
+
+                    </article>
+
+            </section>
+
+            <section class="hero parallax js-parallax" style="height:400px;" data-img="ParalexImage4.1.jpg" data-img-768="ParalexImage4.2.jpg">        
+                    <h1 class="parallax-title">Estou pronto! Como faço para começar?</h1>
+
+            </section>
+
+            <section>
+
+                    <article>
+
+                    <div class="flex-container">
+
+                    <div> <img src="Image4.jpg" alt="Confused Individual" id=FlexB-IMG-4> </div>
+
+                        <div> <p>Isso é ótimo, se você estiver pronto, iniciar o teste é simples! Navegue até o botão "Quiz" na parte superior da sua página para começar a responder às perguntas.</p> </div>
+
+                    </div>
+
+                    </article>
+
+            </section>
+        
+        
+        
+        <script src="shifty.js"></script>
+        
+        <script> new Shifty('.js-parallax');</script>
+        
+        </div>
+    </body>
+    
+</html>
